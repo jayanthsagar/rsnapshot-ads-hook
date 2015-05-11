@@ -1,0 +1,7 @@
+
+ - name: b.vlabs.ac.in
+   points:
+       - [backup_script, /bin/date "+ backup of b.vlabs.ac.in started at %c" > start.txt, b.vlabs.ac.in/b.vlabs.ac.in_start]
+       - [backup, root@b.vlabs.ac.in:/root, /home]
+       - [backup, root@b.vlabs.ac.in:/home, /home]
+       - [backup_script, /bin/date "+ backup of b.vlabs.ac.in stopped at %c" > stop.txt, b.vlabs.ac.in/b.vlabs.ac.in_stop]

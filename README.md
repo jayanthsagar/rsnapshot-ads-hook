@@ -1,0 +1,1 @@
+# rsnapshot-ads-hook
